@@ -13,6 +13,7 @@ catkin_package(
 
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  /home/modsim/RTIMULib2/RTIMULib/
 )
 
 add_executable(rtimulib_ros src/rtimulib_ros.cpp)
